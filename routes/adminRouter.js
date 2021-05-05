@@ -4,8 +4,8 @@ const adminController = require('../controllers/adminController')
 exports.router = (() => {
     const adminRouter = express().Router()
 
-    adminController.route('/signup/').post(adminController)
-    adminController.route('/signin/').post(adminController)
+    adminRouter.route('/users/').get(adminController)
+    adminRouter.route('/users/:id').get(adminController)
 
-    return adminController
+    return adminRouter
 })()
