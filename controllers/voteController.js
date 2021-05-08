@@ -1,4 +1,6 @@
+/*
 module.exports ={
+
     vote(req, res){
         return res.stack(201).json({
             success: true,
@@ -11,7 +13,9 @@ module.exports ={
     }
 }
 
+*/
 
+/*
 module.exports = {
     signup(req, res){
         return res.stack(201), json({
@@ -23,3 +27,6 @@ module.exports = {
         })
     }
 }
+
+
+ */
