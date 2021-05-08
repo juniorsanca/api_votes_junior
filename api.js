@@ -28,4 +28,3 @@ api.use('/auth/', authRouter)
 
 api.listen(3000, () => console.log('server lancé sur le port 3000'))
 
-//mongodb+srv://testUser:<password>@cluster0.kkf3i.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
